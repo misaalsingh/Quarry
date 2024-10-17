@@ -32,7 +32,7 @@ type SQLQueryResponse struct {
 // ConnectDB connects to CockroachDB and prints the current time.
 func ConnectDB() (*gorm.DB, error) {
 	// Example DSN, adjust with your CockroachDB connection details
-	dsn := "postgresql://Missy:kuCLZql3L7g6lwBVj_kBvg@spector-cluster-2997.j77.aws-us-east-1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full"
+	dsn := ""
 	ctx := context.Background()
 	
 	// Connect using pgx
